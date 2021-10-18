@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_container {
+    height: 500px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    border: none;
+}
+
+.container{
+
+    height: 580px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #575757;
+    justify-content:center;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.btn{
+    position: relative;
+    display: block;
+    height: 77px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    z-index: 0;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 1;
+    top: 0;
+    margin: auto;
+    background-color: rgb(78, 57, 99);
+    transition: all 300ms ease;
+    z-index: -1;
+
+}
+.btn--1::before {
+    width: 0;
+    height: 100%;
+  }
+
+  .btn--1:hover::before {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99);
+  }
+
+.btn--2::before {
+    width: 0;
+    height: 100%;
+  }
+
+  .btn--2:hover::before {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99);
+  
+  }
+
+.btn--3::before {
+    width: 0;
+    height: 100%;
+  }
+.btn--3:hover::before {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99), 0 0 20px rebeccrgb(78, 57, 99)apurple;
+  }
+
+.btn--4::before {
+    width: 0;
+    height: 100%;
+  }
+
+  .btn--4:hover::before {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99), 0 0 20px rgb(78, 57, 99);
+  }
+img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+.img_buttons
+{  
+    width: 25px;
+    height: 25px;
+}
+
+
